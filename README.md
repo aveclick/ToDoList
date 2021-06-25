@@ -3,4 +3,4 @@
 #### Description: ToDoList is a website where you can add, edit and delete notes.
 In my project I used <https://getbootstrap.com/> for design solutions.
 I created an app named "ToDoApp", a directoty named "ToDoApp" in another directory named "templates". 
-I used SQLite for my project.
+I also used SQLite for my project.
