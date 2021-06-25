@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet');
+body
+{
+  font-family: Alegreya Sans SC;
+     background: linear-gradient(to top, #fdc830, #f37335);
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container1
+{
+    max-width: 550px;
+    margin: auto;
+    background-color: white;
+    -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+
+.header-bar
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(to top, #ff8008, #ffc837);
+}
+
+.header-bar a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
+
+.header-bar a:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+.task-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.task-title{
+    display: flex;
+}
+
+.task-title a {
+    text-decoration: none;
+    color: #4b5156;
+    margin-left: 10px;
+}
+
+.task-title a:hover {
+    text-decoration: none;
+    color: #4b5156;
+    margin-left: 10px;
+}
+
+.task-complete-icon{
+    height: 20px;
+    width: 20px;
+    background-color: darkorange;
+    border-radius: 50%;
+}
+
+.task-incomplete-icon{
+    height: 20px;
+    width: 20px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+.delete-link{
+    text-decoration: none;
+    font-weight: 900;
+    color: orangered;
+    font-size: 35px;
+    line-height: 0;
+}
+
+#search-add-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to top, #ede574, #e1f5c4);
+}
+
+#add-link{
+    color: orangered;
+    text-decoration: none;
+    font-size: 42px;
+    text-shadow: 1px 1px orangered;
+
+}
+
+input[type=text],
+input[type=password],
+textarea, input[type=date]{
+border: 1px solid orangered;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus, input[type=date]:focus{
+border: 2px solid orangered;
+    outline: none;
+}
+
+label{
+    padding-top: 10px !important;
+    display: block;
+}
+
+.button{
+    border: 1px solid orangered;
+    background-color: #FFFACD;
+    color: orangered;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+form a, a{
+    color: orangered;
+    text-decoration: none;
+}
+
+form a:hover, a:hover{
+    color: orangered;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px pink;
+}
+
+header
+{
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1519658422992-0c8495f08389?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1037&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 750px;
+}
+
+.title
+{
+    font-family: Century Gothic;
+    color: white;
+    font-weight: bold; /* Жирное начертание */
+    font-size: 130px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.footer
+{
+    height: 70px;
+    background: orange;
+    border-bottom: 1px solid #ccc;
+    border-top: 5px solid darkorange;
+    margin: -100px auto 0;
+    margin: 0 auto;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
