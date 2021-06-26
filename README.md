@@ -35,3 +35,12 @@ git clone https://github.com/aveclick/ToDoList.git
 cd ToDoList
 pip install django
 ```
+
+When the dependent packages are installed, you can run this command to run your server.
+```
+python manage.py runserver
+```
+
+# Finally
+Thanks for  [CS50x 2021](https://cs50.harvard.edu/x/2021/)
+26.06.2021
