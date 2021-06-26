@@ -1,6 +1,22 @@
-# ToDoList
+# Final-Project
+Web Programming with Django
+
+# Introduction
 #### Video Demo:  <https://youtu.be/062xDUWBdww>
 #### Description: ToDoList is a website where you can add, edit and delete notes.
-In my project I used <https://getbootstrap.com/> for design solutions.
-I created an app named "ToDoApp", a directoty named "ToDoApp" in another directory named "templates". In models.py I described a Task model. 
-I also used SQLite for my project.
+
+# Project Structure
+
+## Main Page
+In the main page you can add a new note by click "+" button. You can also change existing notes by click on them or delete them by click "x" button. You should confirm deleting on the delete page by click "Delete" button. Besides, if you want to find the note, just input any words in the center input box, and click "Search" button. 
+
+## Create page
+In the create page you can add a title, description and date of the note, then click "Submit" button. If you want to cancel changes, just click "Back" at the top of page.
+
+## Login page
+Before creating notes, you need to login. Just paste your username and password in according fields. If you don't have an account yet, click "Register" below on the page.
+
+## Register page
+Fill in the fields "Username", "Password" and "Password confirmation" and click "Register" button.
+
+
