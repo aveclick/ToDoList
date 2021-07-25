@@ -1,5 +1,5 @@
 # Final-Project
-Web Programming with Web Programming with Python and JavaScript
+Web Programming with Python and JavaScript
 
 # Introduction
 #### Video Demo:  <https://youtu.be/062xDUWBdww>
